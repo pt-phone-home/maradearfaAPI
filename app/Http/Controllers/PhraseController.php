@@ -25,7 +25,7 @@ class PhraseController extends Controller
         
     }
     public function searchbyirish(Request $request) {
-        $term = $request['term'];
+        $term = $request['search'];
         return Phrase::where('irish','like', $term .' %')
                     ->orWhere('irish', 'like', '% ' . $term)
                     ->orWhere('irish', 'like', '% ' . $term . ' %')
