@@ -20,11 +20,11 @@ class PhraseController extends Controller
         // return $terms;
         $term = $request['search'];
       
-        return Phrase::where('english','like', $term .' %')
+        return PhraseResource::collection(Phrase::where('english','like', $term .' %')
                     ->orWhere('english', 'like', '% ' . $term)
                     ->orWhere('english', 'like', '% ' . $term . ' %')
                     ->orWhere('english', 'like', $term)
-                    ->get();
+                    ->get());
         
     }
     public function searchbyirish(Request $request) {
