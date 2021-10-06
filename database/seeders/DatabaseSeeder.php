@@ -139,6 +139,306 @@ class DatabaseSeeder extends Seeder
             'irish' => 'de réir seanchais',
         ]);
         DB::table('phrases')->insert([
+            'english' => 'he has an ace up his sleeve',
+            'irish' => 'tá cárta cúil go fóill aige',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'Achilles’ heel',
+            'irish' => 'an ball nimhneach atá ar dhroim na staile',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'Achilles’ heel',
+            'irish' => 'an laige chinniúnach',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'to have an aching void (of hunger)',
+            'irish' => 'goin ocrais a bheith ort',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'the acid test',
+            'irish' => 'an bhuntriail',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'the acid test',
+            'irish' => 'báire na fola',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'the acid test',
+            'irish' => 'promhadh na haigéide',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'an act of charity',
+            'irish' => 'grá dia',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'it’s a great act of charity on your part (ironically)',
+            'irish' => 'is mór an déirc duit é',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'it would be a great act of charity',
+            'irish' => 'ba mhór an grá dia é',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'he acted in cold blood',
+            'irish' => 'rinne sé go fuarchúiseach é',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'an act of God',
+            'irish' => 'gníomh Dé',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'an act of treachery',
+            'irish' => 'feillbheart',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'he was acting in his own interests',
+            'irish' => 'bhí sé ag tochras ar a cheirtlín féin',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'he was acting in his own interests',
+            'irish' => 'bhí sé ag tochas a ghearbóige féin',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'actions speak louder than words',
+            'irish' => 'déan mórán agus can beagán',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'actions speak louder than words',
+            'irish' => 'is fearr an cruthú an gort ná na seacht seisreacha',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'actions speak louder than words',
+            'irish' => 'ní briathar a dhearbhaíonn ach gníomh',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'actions speak louder than words',
+            'irish' => 'ní briathra a dhearbhaíos ach gníomh',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'actions speak louder than words',
+            'irish' => 'téann focal le gaoth ach téann buille le cnámh',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'actions speak louder than words',
+            'irish' => 'téid focail le gaoith',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'acute agony (pain)',
+            'irish' => 'pian ghártha',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'ad infinitum',
+            'irish' => 'go deo',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'ad libitum',
+            'irish' => 'ar do thoil',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'adapt to circumstances',
+            'irish' => 'damhsa de réir an cheoil',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'to add fuel to the fire',
+            'irish' => 'ag cur geire ar an tine',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'to add fuel to the fire',
+            'irish' => 'ag fadú leis an achrann',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'to add fuel to the fire',
+            'irish' => 'an iaróg a chothú',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'to add fuel to the fire',
+            'irish' => 'an iaróg a chur ina suí',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'to add insult to (the) injury',
+            'irish' => 'an tarcaisne a chur i gceann na héagóra',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'and to add insult to injury',
+            'irish' => 'agus chun taircaisne a chur i gceann na héagóra',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'he’s advanced in years',
+            'irish' => 'tá sé cnagaosta',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'the affair took a turn for the worse',
+            'irish' => 'tháinig droch-chor sa scéal',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'affairs of state',
+            'irish' => 'gnóthaí stáit',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'I’m afraid it is (so)!',
+            'irish' => 'is eagal liom!',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'I’m afraid he’s not...',
+            'irish' => 'is baolach nach bhfuil sé...',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'after all (in the end)',
+            'irish' => 'i ndiaidh an iomláin',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'after all (is said and done)',
+            'irish' => 'agus chuile rud ráite',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'after all (is said and done)',
+            'irish' => 'i ndiaidh gach ní',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'after all (is said and done)',
+            'irish' => 'tar éis an tsaoil',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'after due consideration',
+            'irish' => 'i ndiaidh leormhachnamh a dhéanamh',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'after due consideration',
+            'irish' => 'tar éis an scéal a mheá go maith',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'after due consideration',
+            'irish' => ' tar éis an scéal a mheá go mion',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'on due consideration',
+            'irish' => 'i ndiaidh leormhachnamh a dhéanamh',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'on due consideration',
+            'irish' => 'tar éis an scéal a mheá go maith',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'on due consideration',
+            'irish' => ' tar éis an scéal a mheá go mion',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'after due consideration of...',
+            'irish' => 'i ndiaidh machnamh cothrom a dhéanamh ar...',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'after the event',
+            'irish' => 'i ndiaidh an ama',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => '___ after my fancy',
+            'irish' => ' ___ chun mo thola',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'again and again',
+            'irish' => 'ar ais is ar ais',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'again and again',
+            'irish' => 'arís agus arís eile',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'against the grain',
+            'irish' => 'in aghaidh an dola',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'against the grain',
+            'irish' => 'in aghaidh an fhionnaidh',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'against the grain',
+            'irish' => 'in aghaidh an stuif',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'against great odds',
+            'irish' => 'in éadan an tsrutha',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'against the stream',
+            'irish' => 'in éadan an tsrutha',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => '... against all odds',
+            'irish' => '... taradh a dtiocfaidh',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'against my orders',
+            'irish' => 'thar mo chrosadh',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'against his will',
+            'irish' => 'ar a neamhthoil',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'against his will',
+            'irish' => 'in éadan a thola',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'age before beauty',
+            'irish' => 'aois roimh áilleacht',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'the age of reason',
+            'irish' => 'aois na tuisceana',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'aged 29 years',
+            'irish' => 'in aois a 29 bliain',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'aged 29 years',
+            'irish' => 'in aois a 29 mbl',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'aged 86 years',
+            'irish' => '86 bliain',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'aged 86 years',
+            'irish' => 'aois 86 bl',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => '',
+            'irish' => '',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => '',
+            'irish' => '',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => '',
+            'irish' => '',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => '',
+            'irish' => '',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => '',
+            'irish' => '',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => '',
+            'irish' => '',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => '',
+            'irish' => '',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => '',
+            'irish' => '',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => '',
+            'irish' => '',
+        ]);
+        DB::table('phrases')->insert([
             'english' => '',
             'irish' => '',
         ]);
