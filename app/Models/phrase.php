@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class phrase extends Model
 {
     use HasFactory;
+    
+    private $protected = [];
+
 }

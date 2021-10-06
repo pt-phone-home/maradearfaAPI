@@ -4,11 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Phrase;
+use App\Http\Resources\PhraseResource;
 
 class PhraseController extends Controller
 {
     public function index() {
-        return Phrase::all();
+        // return Phrase::all();
+        return PhraseResource::collection(Phrase::all());
+       
     }
 
     public function searchbyenglish(Request $request) {
