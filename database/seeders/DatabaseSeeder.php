@@ -1675,76 +1675,96 @@ class DatabaseSeeder extends Seeder
             'irish' => 'chomh dubh le tóin corcáin',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as charcoal',
+            'irish' => 'chomh dubh le gualach',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as the chimney hole',
+            'irish' => 'chomh dubh le cloich a’ bhaic',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as the chimney hole',
+            'irish' => 'chomh dubh le poll an bhaic',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as coal',
+            'irish' => 'chomh dubh le gual',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as a crow',
+            'irish' => 'chomh dubh le préachán',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as the devil',
+            'irish' => 'chomh dubh leis an diabhal',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as ebony',
+            'irish' => 'chomh dubh le héabann',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as Erebus',
+            'irish' => 'chomh dubh le Poll Tí Liabáin',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as the feather of a raven (of hair)',
+            'irish' => 'chomh dubh le cleite an fhéich',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as a hanging',
+            'irish' => 'chomh dubh leis an chrochadh',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as the hob',
+            'irish' => 'chomh dubh leis an iarta',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as a hole',
+            'irish' => 'chomh dorcha le poll',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'pitch black',
+            'irish' => 'chomh dorcha le poll',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'he’s not as black as he is painted',
+            'irish' => 'níl sé chomh dona lena thuairisc',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as pitch',
+            'irish' => 'chomh dubh le pic',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as the Pooka’s bum',
+            'irish' => 'chomh dubh le tóin an phúca',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as a raven',
+            'irish' => 'chomh dubh leis an fhiach',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as black as a sloe',
+            'irish' => 'chomh dubh le hairne',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as black as a sloe',
+            'irish' => 'chomh dubh leis an airne',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as black as soot',
+            'irish' => 'chomh dubh leis an mbac',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as black as soot',
+            'irish' => 'chomh dubh leis an tsúiche',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as black as soot',
+            'irish' => 'chomh dubh le súiche',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'he looked as black as thunder (bad tempered, displeased)',
+            'irish' => 'tháinig néal crochadóra air',
         ]);
         DB::table('phrases')->insert([
             'english' => '',
