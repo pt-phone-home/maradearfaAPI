@@ -2103,56 +2103,72 @@ class DatabaseSeeder extends Seeder
             'irish' => 'chomh seanaimseartha le cat',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crafty as Finn',
+            'irish' => 'chomh cleasach le Fionn',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crafty as his grandfather',
+            'irish' => 'chomh seanaimseartha lena athair mór',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crafty / clever / cunning / shrewd as a lawman',
+            'irish' => 'chomh glic le fear dlí',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crooked as a cat’s hind leg',
+            'irish' => 'chomh cam le cois deiridh cait',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crooked as a dog urinating on snow',
+            'irish' => 'chomh cam le madadh ag mún ar shneachta',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crooked as a dog’s penis',
+            'irish' => 'chomh cam le bod madaidh',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crooked as a gambler',
+            'irish' => 'chomh cam le cearrbhach',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crooked as the hind thigh of a dog',
+            'irish' => 'chomh cam le láirig dheiridh mhadaidh',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crooked as a hurling stick',
+            'irish' => 'chomh cam le camán',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crooked as a ram’s horn',
+            'irish' => 'chomh cam le hadharc reithe',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crooked as a ram’s horn',
+            'irish' => 'chomh casta le hadharc reithe',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crooked as a sickle',
+            'irish' => 'chomh cam le corrán',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as crooked as a twisting sand-eel',
+            'irish' => 'chomh cam le corr chasta',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as cross as two sticks',
+            'irish' => 'chomh cantalach le dris',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as cross as two sticks',
+            'irish' => 'chomh crosta le mála easóg',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as cross as a bear',
+            'irish' => 'chomh cantalach le dris',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as cross as a bear',
+            'irish' => 'chomh crosta le mála easóg',
         ]);
         DB::table('phrases')->insert([
             'english' => '',
