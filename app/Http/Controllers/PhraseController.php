@@ -10,7 +10,7 @@ class PhraseController extends Controller
 {
     public function index() {
         // return Phrase::all();
-        return PhraseResource::collection(Phrase::all());
+        return ['phrase_count' => Phrase::all()->count(), 'phrases' => PhraseResource::collection(Phrase::all())];
        
     }
 
