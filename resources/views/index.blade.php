@@ -7,9 +7,9 @@
     <title>Irish Clichés and Phrases</title>
     <link rel="stylesheet" href="/css/app.css">
 </head>
-<body>
+<body class="bg-dark">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -32,15 +32,19 @@
             </div>
           </nav>
     </div>
-        <h1>Hello</h1>
-    @foreach ($phrases as $phrase)
+        <div class="container">
+          <h1 class="text-white">Hello</h1>
+            @foreach ($phrases as $phrase)
 
-        <div class="card p-4 m-2" style="width: 300px">
-            <p>{{$phrase->english}}</p>
-            <hr>
-            <p>{{$phrase->irish}}</p>
+                <div class="card p-4 m-2" style="width: 300px">
+                    <p>{{$phrase->english}}</p>
+                    <hr>
+                    <p>{{$phrase->irish}}</p>
+                </div>
+                
+            @endforeach
         </div>
-        
-    @endforeach
+
+    <script src="/js/app.js"></script>
 </body>
 </html>
