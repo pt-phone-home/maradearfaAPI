@@ -2459,72 +2459,128 @@ class DatabaseSeeder extends Seeder
             'irish' => 'chomh balbh le smután maide',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as early as possible',
+            'irish' => 'chomh luath agus is féidir',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as early as possible',
+            'irish' => 'ar an dá luas',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as easy as anything',
+            'irish' => 'chomh furasta lena bhfaca tú ariamh',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as easy as A B C',
+            'irish' => 'chomh furasta lena bhfaca tú ariamh',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as easy as falling off a log',
+            'irish' => 'chomh furasta lena bhfaca tú ariamh',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'it’s as easy as pie',
+            'irish' => 'níl ann ach caitheamh dairteanna',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'it would be as easy for you to grab the air as to ... (impossible)',
+            'irish' => 'bheadh sé chomh héasca duit breith ar an aer agus ...',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as eerie as the graveyard',
+            'irish' => 'chomh huaigneach leis an reilig',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as empty as a bag',
+            'irish' => 'chomh folamh le mála',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as empty as a church without a priest (in card playing)',
+            'irish' => 'chomh folamh le teach pobail gan sagart',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as empty as a whistle',
+            'irish' => 'chomh folamh le feadóg',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as even as a die',
+            'irish' => 'chomh cothrom le dísle',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as the evening wore on ...',
+            'irish' => 'de réir mar a bhí an tráthnóna á chaitheamh ...',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as ever I saw',
+            'irish' => 'agus a chonaic mé dhá uair riamh',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as I ever did see',
+            'irish' => 'agus a chonaic mé dhá uair riamh',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as everyone knows',
+            'irish' => 'mar is eol do mhadaidh na sráide',
         ]);
         DB::table('phrases')->insert([
-            'english' => '',
-            'irish' => '',
+            'english' => 'as everyone knows',
+            'irish' => 'mar is eol don saol',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as everyone knows',
+            'irish' => 'mar tá’s ag an lá',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as every schoolboy knows',
+            'irish' => 'mar is eol do mhadaidh na sráide',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as every schoolboy knows',
+            'irish' => 'mar is eol don saol',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as every schoolboy knows',
+            'irish' => 'mar tá’s ag an lá',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as false as the devil',
+            'irish' => 'chomh bréagach leis an diabhal',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as the fancy takes him',
+            'irish' => 'de réir mar atá sé d’fhonn air',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as far as I remember',
+            'irish' => 'a fhad is is cuimhin liom',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as far as I remember',
+            'irish' => 'ar feadh mo chuimhne',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as far as I recollect',
+            'irish' => 'a fhad is is cuimhin liom',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as far as I recollect',
+            'irish' => 'ar feadh mo chuimhne',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as far back as I can remember',
+            'irish' => 'is é mo chianchuimhne é',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as far back as I can remember',
+            'irish' => 's é mo sheanchuimhne é',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as far as I understand it ',
+            'irish' => 'ar feadh gur léir dom é',
+        ]);
+        DB::table('phrases')->insert([
+            'english' => 'as far as I understand it ',
+            'irish' => 'de réir m’eolais',
         ]);
         DB::table('phrases')->insert([
             'english' => '',
