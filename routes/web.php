@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [PagesController::class, 'index']);
+Route::post('/english_search', [PagesController::class, 'english_search'])->name('english_search');
+Route::get('/individualPhrase/{id}', [PagesController::class, 'individual_phrase'])->name('individualPhrase');

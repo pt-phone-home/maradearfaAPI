@@ -12,9 +12,24 @@ class PagesController extends Controller
         $oneRandomPhrase = Phrase::all()->random();
         $phraseCount = Phrase::all()->count();
         $fiveRandomPhrases = Phrase::all()->random(5);
-        $twentyRandomPhrasesInEnglish = Phrase::all()->random(20)->pluck('english');
+        $twentyRandomPhrasesInEnglish = Phrase::all()->random(20);
         
 
         return view('index')->with(['phraseCount' => $phraseCount, 'oneRandomPhrase' => $oneRandomPhrase, 'fiveRandomPhrases' => $fiveRandomPhrases, 'twentyRandomPhrasesInEnglish' => $twentyRandomPhrasesInEnglish]);
+    }
+
+    public function english_search(Request $request) {
+       $searchTerm = $request['englishSearch'];
+       $locatedPhrases = Phrase::where('english','like', $searchTerm .' %')
+                    ->orWhere('english', 'like', '% ' . $searchTerm)
+                    ->orWhere('english', 'like', '% ' . $searchTerm . ' %')
+                    ->orWhere('english', 'like', $searchTerm)
+                    ->get();
+
+        $oneRandomPhrase = Phrase::all()->random();
+        $phraseCount = Phrase::all()->count();
+        $fiveRandomPhrases = Phrase::all()->random(5);
+        $twentyRandomPhrasesInEnglish = Phrase::all()->random(20);
+        return view('english_search')->with(['locatedPhrases' => $locatedPhrases, 'phraseCount' => $phraseCount, 'oneRandomPhrase' => $oneRandomPhrase, 'fiveRandomPhrases' => $fiveRandomPhrases, 'twentyRandomPhrasesInEnglish' => $twentyRandomPhrasesInEnglish]);
     }
 }
