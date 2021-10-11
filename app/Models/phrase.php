@@ -11,4 +11,8 @@ class phrase extends Model
     
     private $protected = [];
 
+
+    public function getRandomPhrase() {
+        return 'Random Phrase';
+    }
 }
