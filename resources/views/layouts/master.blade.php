@@ -9,19 +9,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     {{-- <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="{{asset('css/custom.css')}}"> --}}
-</head>
+    </head>
 <body class="">
     <div class="container">
         @include('components.navbar')
     </div>
-    <div class="container">
+    {{-- <div class="container">
       <div class="row">
         <div class="col-8 offset-2">
           <h1 class="">Irish Clichés and Phrases Repository</h1>
           <p class="fs-5">Welcome to this repository of Irish Clichés and phrases. The content for this repository has been transfered by hand from 'Mar a Déará'. We have created this repository so that the wonderful work contained in that publication is avaialble online, in a searchable format. Our home page presents a random phrase from the collection, every time the page is refreshed.</p>
         </div>
       </div>
-    </div>
+    </div> --}}
     <div class="container">
       <div class="row">
         <div class="col">
@@ -61,13 +61,13 @@
     <div class="container">
       <div class="row mt-4">
         <div class="col-12 col-md-2">
-        <h3>Selection of phrases (English)</h3>
-        <p>Click on the link to see Irish Version</p>
-        <div class="card px-4 py-2">
-          @foreach ($twentyRandomPhrasesInEnglish as $englishPhrase)
-            <a class="link-secondary" href="{{route('show', ['id' => $englishPhrase->id])}}">{{$englishPhrase->english}}</a>
-          @endforeach
-        </div>
+          <div class="card px-4 py-2">
+            <h6>Selection of phrases (English)</h6>
+            <p style="font-size: 12px">Click on the link to see Irish Version</p>
+              @foreach ($twentyRandomPhrasesInEnglish as $englishPhrase)
+                <a class="link-secondary" style="font-size:13px" href="{{route('show', ['id' => $englishPhrase->id])}}">{{$englishPhrase->english}}</a>
+              @endforeach
+          </div>
         </div>
         <div class="col-12 col-md-8">
           @yield('content')

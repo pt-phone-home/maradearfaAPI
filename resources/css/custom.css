@@ -1,3 +1,11 @@
 .text-grey {
     color: grey;
 }
+
+.small-text {
+    font-size: 8px;
+}
+
+.testing {
+    color: indianred;
+}
